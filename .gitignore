@@ -1,0 +1,31 @@
+# Exclude environment files
+.env
+.env.local
+.env.*.local
+
+# Python cache and virtual environment folders
+__pycache__/
+*.py[cod]
+venv/
+.env/
+.venv/
+
+# Node.js dependencies (if applicable)
+node_modules/
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE and editor files
+.vscode/
+.idea/
+
+# Build and distribution folders
+dist/
+build/
